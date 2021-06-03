@@ -1,0 +1,39 @@
+.sale{
+    z-index: 2;
+    top: 0;
+}
+.notes{
+    margin-top: 125%;
+    margin-left: -95%;
+    z-index: 1;
+}
+.bgheader{
+    transform: rotateY(180deg);
+    top: 22%;
+    right: 48%;
+    z-index: 2;
+    position: absolute;
+}
+.library{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border: none;
+    color: transparent;
+    font-weight: 700;
+    transition: background-color 2s, color 2s;
+}
+.btn:hover {
+    color: rgb(3, 49, 63);
+    transition: background-color 2s, color 2s;
+    background-color: rgba(255, 5, 201, 0.747);
+}
